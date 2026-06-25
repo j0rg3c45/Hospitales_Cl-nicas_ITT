@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Hospital Terron Colorado - ESE Ladera",
+        "direccion": "Av. 4a Oe.",
+        "comuna": "COMUNA 1",
+        "municipio": "Cali",
+        "departamento": "Valle del Cauca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.55915347465202, 3.4524408768046295]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Centro De Salud La Rivera",
+        "direccion": "Cra. 1g #65-35",
+        "comuna": "Comuna 5",
+        "municipio": "Cali",
+        "departamento": "Valle del Cauca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.49050412813828, 3.474079476955456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Centro De Salud Antonio Narino",
+        "direccion": "Cra. 40 #38-99",
+        "comuna": "Comuna 38",
+        "municipio": "Cali",
+        "departamento": "Valle del Cauca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.5083103585888, 3.4162184243856415]
+      }
+    }
+  ]
+}
