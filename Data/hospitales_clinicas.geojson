@@ -8,7 +8,29 @@
         "direccion": "Av. 4a Oe.",
         "comuna": "COMUNA 1",
         "municipio": "Cali",
-        "departamento": "Valle del Cauca"
+        "departamento": "Valle del Cauca",
+        "tipo_proyecto": "Infraestructura y dotacion hospitalaria",
+        "usuarios": 91545,
+        "servicios_anuales": 304563,
+        "inversion_obra_millones": 25445,
+        "inversion_interventoria_millones": 1781,
+        "inversion_dotacion_millones": 1972,
+        "valor_total": 29199204978,
+        "capacidad_actual_total": 27,
+        "capacidad_proyectada_total": 42,
+        "servicios": [
+          {"nombre": "Consulta de urgencias", "actual": 2, "proyectada": 3},
+          {"nombre": "Observacion", "actual": 6, "proyectada": 7},
+          {"nombre": "Rayos X", "actual": 1, "proyectada": 2},
+          {"nombre": "Consulta medica general", "actual": 2, "proyectada": 5},
+          {"nombre": "Consulta enfermeria", "actual": 5, "proyectada": 6},
+          {"nombre": "Vacunacion", "actual": 0, "proyectada": 1},
+          {"nombre": "Consulta medica especializada", "actual": 3, "proyectada": 5},
+          {"nombre": "Atencion psicosocial", "actual": 0, "proyectada": 1},
+          {"nombre": "Odontologia", "actual": 4, "proyectada": 4},
+          {"nombre": "Laboratorio clinico", "actual": 2, "proyectada": 4},
+          {"nombre": "Rehabilitacion fisica", "actual": 2, "proyectada": 4}
+        ]
       },
       "geometry": {
         "type": "Point",
