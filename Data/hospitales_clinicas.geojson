@@ -54,11 +54,47 @@
     {
       "type": "Feature",
       "properties": {
-        "nombre": "Centro De Salud Antonio Narino",
+        "nombre": "IPS Antonio Narino",
         "direccion": "Cra. 40 #38-99",
         "comuna": "Comuna 38",
         "municipio": "Cali",
-        "departamento": "Valle del Cauca"
+        "departamento": "Valle del Cauca",
+        "tipo_proyecto": "Infraestructura y servicios de salud integral",
+        "consulta_externa": [
+          {"servicio": "Enfermeria", "consultorios": 4},
+          {"servicio": "Medicina General", "consultorios": 4},
+          {"servicio": "Medicina Interna", "consultorios": 1},
+          {"servicio": "Odontologia General", "unidades": 2},
+          {"servicio": "Nutricion y Dietetica", "consultorios": 1},
+          {"servicio": "Pediatria", "consultorios": 1},
+          {"servicio": "Psicologia", "consultorios": 1},
+          {"servicio": "Vacunacion", "consultorios": 1}
+        ],
+        "apoyo_diagnostico": [
+          {"servicio": "Toma de muestras laboratorio clinico", "ambientes": 1, "observaciones": "2 cubiculos (adultos y pediatrico)"},
+          {"servicio": "Terapia Ocupacional", "ambientes": 1},
+          {"servicio": "Terapia Respiratoria", "ambientes": 1},
+          {"servicio": "Fisioterapia", "ambientes": 1, "observaciones": "4 camillas"},
+          {"servicio": "Fonoaudiologia y Terapia del Lenguaje", "ambientes": 1},
+          {"servicio": "Toma de muestras cuello uterino y ginecologicas", "ambientes": 1}
+        ],
+        "terapias_especializadas": [
+          "Terapias Comportamentales - Tipo A.B.A",
+          "Terapias de Rehabilitacion Fisica",
+          "Terapias Conductuales",
+          "Terapias Cognitivas",
+          "Estimulacion Neuropsicologica Cognitiva",
+          "Terapias de Neurodesarrollo - Otras"
+        ],
+        "cobertura_servicios": [
+          "Educacion Academica (regular y especial)",
+          "Culturales (danza, musica, expresiones artisticas)",
+          "Orientaciones (derechos, deberes, rutas, articulaciones interinstitucionales)",
+          "Deporte y ludica",
+          "Alimentacion y nutricion",
+          "Servicio de transporte",
+          "Talleres prevocacionales"
+        ]
       },
       "geometry": {
         "type": "Point",
