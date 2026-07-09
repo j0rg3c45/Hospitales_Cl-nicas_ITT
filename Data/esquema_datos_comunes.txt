@@ -1,0 +1,86 @@
+ESQUEMA DE DATOS COMUNES PARA COMPARACION DE MEJORAS EN CENTROS MEDICOS
+=========================================================================
+
+Para comparar las mejoras entre centros medicos de forma estandarizada,
+se propone el siguiente esquema de datos comunes:
+
+
+1. IDENTIFICACION Y CLASIFICACION
+-----------------------------------
+Campo                   Descripcion                                     Ejemplo
+nombre                  Nombre oficial de la institucion                Hospital Terron Colorado - ESE Ladera
+categoria               Nivel de atencion (I, II, III)                  Nivel I
+tipo_ips                Clasificacion de la IPS                         Hospital, Centro de Salud, Clinica especializada
+red                     Red a la que pertenece                          ESE Ladera, Red de Salud Norte
+convenio                Convenio o ficha del proyecto                   BP-26005914
+
+
+2. UBICACION
+-----------------------------------
+Campo                   Descripcion
+direccion               Direccion fisica
+comuna                  Comuna
+barrio                  Barrio
+municipio               Municipio
+lat / lon               Coordenadas geograficas (WGS84)
+
+
+3. ALCANCE Y POBLACION
+-----------------------------------
+Campo                       Descripcion
+poblacion_beneficiaria      Numero de usuarios atendidos o proyectados
+servicios_anuales           Total de atenciones por anio
+comunas_cobertura           Comunas a las que presta servicio
+
+
+4. CAPACIDAD INSTALADA (ANTES vs DESPUES)
+-----------------------------------
+Campo                           Descripcion
+ambientes_actuales              Total de ambientes de servicio antes de la obra
+ambientes_proyectados           Total de ambientes despues de la obra
+servicios_actuales              Lista de servicios habilitados actualmente
+servicios_nuevos                Servicios que se habilitan con la mejora
+capacidad_operativa_actual      Procedimientos/anio por tecnologia
+capacidad_operativa_nueva       Procedimientos/anio proyectados
+
+
+5. INVERSION
+-----------------------------------
+Campo                       Descripcion
+valor_total                 Valor total del proyecto
+inversion_obra              Costo de la obra civil
+inversion_interventoria     Costo de interventoria
+inversion_dotacion          Costo de equipamiento
+fuente_financiacion         Origen de los recursos
+
+
+6. ESTADO DEL PROYECTO
+-----------------------------------
+Campo                   Descripcion
+estado                  Estado actual (en ejecucion, terminado, en diseno)
+porcentaje_avance       % de avance de la obra
+fecha_inicio            Fecha de inicio
+fecha_entrega           Fecha estimada de entrega
+
+
+7. PORTAFOLIO DE SERVICIOS
+-----------------------------------
+Campo                       Descripcion
+consulta_externa            Servicios ambulatorios
+urgencias                   Si/No y capacidad
+apoyo_diagnostico           Imagenes, laboratorio, etc.
+rehabilitacion              Terapias disponibles
+servicios_especializados    Servicios diferenciadores (ej. mamografia, neurodesarrollo)
+
+
+=========================================================================
+UTILIDAD DEL ESQUEMA:
+
+1. Comparar que tenia cada centro antes de la intervencion vs que va a tener.
+2. Calcular cuanto se invierte por usuario beneficiado.
+3. Identificar que nivel de complejidad cubre cada uno.
+4. Detectar brechas de cobertura territorial.
+=========================================================================
+
+Proyecto: Gobierno de Datos 2026 - Hospitales Clinicas ITT
+Repositorio: https://github.com/j0rg3c45/Hospitales_Cl-nicas_ITT.git
