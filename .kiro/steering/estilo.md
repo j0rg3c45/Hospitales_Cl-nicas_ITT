@@ -23,3 +23,11 @@
 - Paul Tol (bright): #4477AA, #EE6677, #228833, #CCBB44, #66CCEE, #AA3377, #BBBBBB
 - IBM Design: #648FFF, #785EF0, #DC267F, #FE6100, #FFB000
 - Estas paletas son accesibles para daltonismo y se ven bien en impresion.
+- En el geovisor, los marcadores se colorean por ESE (no por estado):
+  - ESE Centro = Azul
+  - ESE Ladera = Verde
+  - ESE Norte = Naranja
+  - ESE Oriente = Rojo
+  - ESE Suroriente = Morado oscuro
+- Los 3 puntos de estudio van en morado con icono de estrella.
+- Los poligonos de terrenos van con contorno rojo delgado, sin relleno.
