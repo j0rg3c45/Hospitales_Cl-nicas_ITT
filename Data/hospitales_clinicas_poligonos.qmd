@@ -24,6 +24,6 @@
     </spatialrefsys>
   </crs>
   <extent>
-    <spatial dimensions="2" maxz="0" crs="EPSG:6249" minz="0" miny="3.32937299999999992" maxx="-76.46135700000000668" maxy="3.50307700000000022" minx="-76.59164900000000387"/>
+    <spatial crs="EPSG:6249" maxy="3.50307700000000022" miny="3.32937299999999992" maxx="-76.46135700000000668" dimensions="2" maxz="0" minx="-76.59164900000000387" minz="0"/>
   </extent>
 </qgis>
