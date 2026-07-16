@@ -16,3 +16,10 @@
 - Se diferencian por los servicios prestados y la capacidad instalada.
 - Un **Centro de Salud** es de mayor prestacion y portafolio que un Puesto de Salud.
 - Jerarquia: Puesto de Salud < Centro de Salud < Hospital.
+
+## Visualizacion
+
+- Usar la paleta de colores de **Paul Tol** o **IBM Design** para graficos y mapas.
+- Paul Tol (bright): #4477AA, #EE6677, #228833, #CCBB44, #66CCEE, #AA3377, #BBBBBB
+- IBM Design: #648FFF, #785EF0, #DC267F, #FE6100, #FFB000
+- Estas paletas son accesibles para daltonismo y se ven bien en impresion.
